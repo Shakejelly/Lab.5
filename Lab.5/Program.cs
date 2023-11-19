@@ -7,7 +7,7 @@
             Circle radius1 = new Circle(5);
             Circle radius2 = new Circle(6);
 
-                Console.WriteLine("You can choose a circle with either 5cm, 6cm or choose your own cm in radius to get the area.");
+                Console.WriteLine("You can choose a circle with either 5cm, 6cm radius to get the area.");
                 Console.WriteLine("1: 5 CM\n2: 6 CM.");
                 string choice = Console.ReadLine();
                 if (choice == "1")
@@ -21,7 +21,7 @@
                     
                 }
 
-                else { Console.WriteLine("Invalid Input"); return; }
+                else { Console.WriteLine("Invalid Input"); }
                 
         }
   
