@@ -8,16 +8,17 @@ namespace Lab._5
 {
     public class Circle
     {
-     
-            public  void GetArea()
-            {
-                Console.WriteLine("Skriv in radie i cm till en cirkel så visar jag dess area");
-                double radius = Convert.ToInt32(Console.ReadLine());
-
-                double area = radius * radius * Math.PI;
-                Console.WriteLine(area);
-
-            }
+        public double Radius {  get; set; }
+        
+        public Circle(double radius)
+        {
+            Radius = radius;
+           
+        }
+        public double GetArea()
+        {
+            return Radius * Radius * Math.PI;
         }
     }
+}
 
